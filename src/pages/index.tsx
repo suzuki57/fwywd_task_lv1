@@ -1,9 +1,21 @@
+import { Benefit } from '../component/benefit';
+import { CTA } from '../component/cta';
+import { Hero } from '../component/hero';
+import { PageFooter } from '../component/pagefooter';
+import { PageHeader } from '../component/pageheader';
+import { Pricing } from '../component/pricing';
+import { Sympathy } from '../component/sympathy';
+
 const Home: React.FC = () => (
-  <main className='mx-auto max-w-6xl py-6'>
-    <h1 className='text-lg font-bold text-primary-800'>
-      Welcome to Kikagaku Next.js Starter Kit!!
-    </h1>
-  </main>
+  <>
+    <PageHeader />
+    <Hero />
+    <Sympathy />
+    <Benefit />
+    <Pricing />
+    <CTA />
+    <PageFooter />
+  </>
 );
 
 export default Home;
