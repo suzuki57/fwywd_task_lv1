@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 
 export const PageFooter: React.FC = () => (
-  <div className='h-[630px] bg-gray-700 py-10 px-20 text-lg text-white'>
+  <div className='h-[630px] bg-primary-800 py-10 px-20 text-lg text-white'>
     <div className='mb-16 border-b-4 border-white'>
       <div className='flex pb-5'>
         {/* ロゴ */}
@@ -17,58 +17,79 @@ export const PageFooter: React.FC = () => (
           <div className='flex'>
             <div className='mr-5 h-[62px] w-[62px] rounded bg-white'>
               <div className='p-3'>
-                <Image src='/icon/facebook.png' alt='facebook' width={35} height={40}></Image>
+                <a href='' className='hover:opacity-70'>
+                  <Image src='/icon/facebook.png' alt='facebook' width={35} height={40}></Image>
+                </a>
               </div>
             </div>
             <div className='mr-5 h-[62px] w-[62px] rounded bg-white'>
               <div className='p-3'>
-                <Image src='/icon/twitter.png' alt='twitter' width={35} height={40}></Image>
+                <a href='' className='hover:opacity-70'>
+                  <Image src='/icon/twitter.png' alt='twitter' width={35} height={40}></Image>
+                </a>
               </div>
             </div>
             <div className='mr-5 h-[62px] w-[62px] rounded bg-white'>
               <div className='p-3'>
-                <Image src='/icon/line.png' alt='line' width={35} height={40}></Image>
+                <a href='' className='hover:opacity-70'>
+                  <Image src='/icon/line.png' alt='line' width={35} height={40}></Image>
+                </a>
               </div>
             </div>
             <div className='mr-5 h-[62px] w-[62px] rounded bg-white'>
               <div className='p-3'>
-                <Image src='/icon/hatebu.png' alt='hatebu' width={35} height={40}></Image>
+                <a href='' className='hover:opacity-70'>
+                  <Image src='/icon/hatebu.png' alt='hatebu' width={35} height={40}></Image>
+                </a>
               </div>
             </div>
             <div className='h-[62px] w-[62px] rounded bg-white'>
               <div className='p-3'>
-                <Image src='/icon/pinterest.png' alt='pinterest' width={35} height={40}></Image>
+                <a href='' className='hover:opacity-70'>
+                  <Image src='/icon/pinterest.png' alt='pinterest' width={35} height={40}></Image>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
     <div className='flex'>
       <div>
         <p className='pb-5 pr-72 font-bold'>About</p>
-        <ul>
-          <li>悩み</li>
-          <li>解決策</li>
-          <li>料金</li>
-        </ul>
+        <a href='' className='block hover:opacity-70'>
+          悩み
+        </a>
+        <a href='' className='block hover:opacity-70'>
+          解決策
+        </a>
+        <a href='' className='block hover:opacity-70'>
+          料金
+        </a>
       </div>
       <div>
         <p className='pb-5 pr-72 font-bold'>Legal</p>
-        <ul>
-          <li>利用規約</li>
-          <li>プライバシポリシー</li>
-          <li>突起法表記</li>
-          <li>運営会社</li>
-        </ul>
+        <a href='' className='block hover:opacity-70'>
+          利用規約
+        </a>
+        <a href='' className='block hover:opacity-70'>
+          プライバシポリシー
+        </a>
+        <a href='' className='block hover:opacity-70'>
+          特記法表記
+        </a>
+        <a href='' className='block hover:opacity-70'>
+          運営会社
+        </a>
       </div>
       <div>
         <p className='pb-5 font-bold'>Links</p>
-        <ul>
-          <li>メディアキット</li>
-          <li>サイトマップ</li>
-        </ul>
+        <a href='' className='block hover:opacity-70'>
+          メディアキット
+        </a>
+        <a href='' className='block hover:opacity-70'>
+          サイトマップ
+        </a>
       </div>
     </div>
     <p className='pt-24 text-center'>

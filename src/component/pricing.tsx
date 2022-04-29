@@ -12,7 +12,7 @@ export const Pricing: React.FC = () => (
     <div className='m-auto flex w-11/12'>
       {/* 起業挑戦プラン */}
       <div className='m-auto'>
-        <div className='h-[800px] w-[500px]  rounded bg-white text-center text-lg font-bold text-primary-800 shadow-lg'>
+        <div className='h-[800px] w-[500px]  rounded bg-white text-center text-lg font-bold text-primary-800 shadow-lg hover:bg-yellow'>
           <div className='py-10 px-16'>
             <p>
               <span className='text-2xl'>起業挑戦</span>プラン
@@ -71,7 +71,7 @@ export const Pricing: React.FC = () => (
 
       {/* スタンダードプラン */}
       <div className='m-auto'>
-        <div className='h-[800px] w-[500px] rounded bg-primary-800 text-center text-lg font-bold text-white shadow-lg'>
+        <div className='h-[800px] w-[500px] rounded bg-primary-800 text-center text-lg font-bold text-white shadow-lg hover:bg-yellow hover:text-primary-800'>
           <div className='py-10 px-16'>
             <p>
               <span className='text-2xl'>スタンダード</span>プラン
@@ -131,7 +131,7 @@ export const Pricing: React.FC = () => (
       {/* フルサポートプラン */}
 
       <div className='m-auto'>
-        <div className='h-[800px] w-[500px]  rounded bg-white text-center text-lg font-bold text-primary-800 shadow-lg'>
+        <div className='h-[800px] w-[500px]  rounded bg-white text-center text-lg font-bold text-primary-800 shadow-lg hover:bg-yellow'>
           <div className='py-10 px-16'>
             <p>
               <span className='text-2xl'>フルサポート</span>プラン

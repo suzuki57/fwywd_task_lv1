@@ -11,7 +11,7 @@ export const CTA: React.FC = () => (
         人生最大<span className='text-[48px]'>の</span>財産
         <span className='text-[48px]'>である</span>
       </p>
-      <button className='t h-[100px] w-[400px] rounded bg-gradient-to-r from-orange to-yellow text-2xl text-white hover:opacity-70 '>
+      <button className='h-[100px] w-[400px] font-bold rounded bg-gradient-to-r from-orange to-yellow text-2xl text-white hover:opacity-70 '>
         資料ダウンロード
       </button>
     </div>
