@@ -7,6 +7,7 @@ module.exports = {
       bold: 600,
       extrabold: 700,
     },
+      
     colors: {
       primary: {
         50: '#F5FAFA',
@@ -44,7 +45,12 @@ module.exports = {
       xl: '1.875rem',
       '2xl': '2.25rem',
     },
-    extend: {},
+    
+    extend: {
+      backgroundImage: theme => ({
+        'hero': "url('/img/hero-bg.png')",
+     }),
+    },
   },
   plugins: [],
 };
