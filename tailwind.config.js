@@ -50,6 +50,7 @@ module.exports = {
       backgroundImage: theme => ({
         'hero': "url('/img/hero-bg.png')",
         'benefit': "url('/img/benefit-bg.png')",
+        'cta': "url('/img/cta.png')",
      }),
     },
   },
