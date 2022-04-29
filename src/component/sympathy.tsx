@@ -24,7 +24,7 @@ export const Sympathy: React.FC = () => (
       </div>
       <p className='flex-1 pt-1'>最後のひと押しの勇気が欲しい</p>
     </div>
-
+    {/* 悩み１ */}
     <div className='m-auto flex w-9/12 pt-10'>
       <div className='flex-1'>
         <div className='m-auto h-[614px] w-[500px]  rounded bg-white text-center text-lg font-bold shadow-lg'>
@@ -41,7 +41,7 @@ export const Sympathy: React.FC = () => (
           </div>
         </div>
       </div>
-
+      {/* 悩み２ */}
       <div className='flex-1'>
         <div className='m-auto h-[614px] w-[500px]  rounded bg-white text-center text-lg font-bold shadow-lg'>
           <p className='w-1/6 bg-primary-800 text-[18px] text-white'>悩み２</p>

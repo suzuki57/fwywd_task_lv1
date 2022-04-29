@@ -45,10 +45,11 @@ module.exports = {
       xl: '1.875rem',
       '2xl': '2.25rem',
     },
-    
+
     extend: {
       backgroundImage: theme => ({
         'hero': "url('/img/hero-bg.png')",
+        'benefit': "url('/img/benefit-bg.png')",
      }),
     },
   },
