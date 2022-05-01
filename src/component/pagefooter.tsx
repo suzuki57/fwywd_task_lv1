@@ -1,13 +1,16 @@
 import Image from 'next/image';
 import React from 'react';
+import { Link as Scroll } from 'react-scroll';
 
 export const PageFooter: React.FC = () => (
   <div className='z-0 h-[630px] bg-primary-800 py-10 px-20 text-lg text-white'>
     <div className='mb-16 border-b-4 border-white'>
       <div className='flex pb-5'>
         {/* ロゴ */}
-        <div className='pt-12 text-left'>
-          <Image src='/img/logo.png' alt='logo' width={150} height={60}></Image>
+        <div className='pt-12 text-left hover:opacity-70'>
+          <Scroll to='top' smooth={true}>
+            <Image src='/img/logo.png' alt='logo' width={150} height={60}></Image>
+          </Scroll>
         </div>
         {/* コメント */}
         <p className='pt-16 pl-60 font-bold'>良き仲間との出会い人生最大の財産である</p>
@@ -58,13 +61,19 @@ export const PageFooter: React.FC = () => (
       <div>
         <p className='pb-5 pr-72 font-bold'>About</p>
         <a href='' className='block hover:opacity-70'>
-          悩み
+          <Scroll to='sympathy' smooth={true}>
+            悩み
+          </Scroll>
         </a>
         <a href='' className='block hover:opacity-70'>
-          解決策
+          <Scroll to='benefit' smooth={true}>
+            解決策
+          </Scroll>
         </a>
         <a href='' className='block hover:opacity-70'>
-          料金
+          <Scroll to='pricing' smooth={true}>
+            料金
+          </Scroll>
         </a>
       </div>
       <div>
