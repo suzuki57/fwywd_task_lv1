@@ -7,7 +7,7 @@ export const PageFooter: React.FC = () => (
     <div className='mb-16 border-b-4 border-white'>
       <div className='flex pb-5'>
         {/* ロゴ */}
-        <div className='pt-12 text-left hover:opacity-70'>
+        <div className='pt-12 text-left hover:cursor-pointer hover:opacity-70'>
           <Scroll to='top' smooth={true}>
             <Image src='/img/logo.png' alt='logo' width={150} height={60}></Image>
           </Scroll>
