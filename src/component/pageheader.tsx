@@ -4,7 +4,7 @@ import { Link as Scroll } from 'react-scroll';
 
 export const PageHeader: React.FC = () => (
   <div className='fixed z-10 flex h-[100px] w-[1680px] bg-primary-800'>
-    <div className='flex-1 px-10 py-5 text-left hover:opacity-70 hover:cursor-pointer'>
+    <div className='flex-1 px-10 py-5 text-left hover:cursor-pointer hover:opacity-70'>
       <Scroll to='top' smooth={true}>
         <Image src='/img/logo.png' alt='logo' width={150} height={60}></Image>
       </Scroll>

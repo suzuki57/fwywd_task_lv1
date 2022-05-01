@@ -60,21 +60,21 @@ export const PageFooter: React.FC = () => (
     <div className='flex'>
       <div>
         <p className='pb-5 pr-72 font-bold'>About</p>
-        <a href='' className='block hover:opacity-70'>
-          <Scroll to='sympathy' smooth={true}>
+        <Scroll to='sympathy' smooth={true}>
+          <a href='' className='block hover:opacity-70'>
             悩み
-          </Scroll>
-        </a>
-        <a href='' className='block hover:opacity-70'>
-          <Scroll to='benefit' smooth={true}>
+          </a>
+        </Scroll>
+        <Scroll to='benefit' smooth={true}>
+          <a href='' className='block hover:opacity-70'>
             解決策
-          </Scroll>
-        </a>
-        <a href='' className='block hover:opacity-70'>
-          <Scroll to='pricing' smooth={true}>
+          </a>
+        </Scroll>
+        <Scroll to='pricing' smooth={true}>
+          <a href='' className='block hover:opacity-70'>
             料金
-          </Scroll>
-        </a>
+          </a>
+        </Scroll>
       </div>
       <div>
         <p className='pb-5 pr-72 font-bold'>Legal</p>
