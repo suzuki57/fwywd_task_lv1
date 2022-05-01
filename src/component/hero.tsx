@@ -16,8 +16,8 @@ export const Hero: React.FC = () => {
         <p className='text-[64px] font-bold'>できる世界へ</p>
         <p className='pt-16 text-[32px] font-bold'>貢献が正しく評価される仕組みを創る</p>
         <p className='pt-32 pl-5 font-bold text-orange'>
-          ＼現在<span className='text-[32px]'>&nbsp;{!data ? '集計中' : data.length}&nbsp;名</span>
-          がダウンロード／
+          ＼現在<span className='text-[32px]'>&nbsp;{!data ? '集計中' : data.length}&nbsp;</span>
+          名がダウンロード／
         </p>
         <a href='https://docs.google.com/forms/d/e/1FAIpQLSf8D2W6099KIuc6IdDBsFRBpNUn1JL1fqmodwTQXUouCcrbSQ/viewform'>
           <button className='h-[76px] w-[292px] rounded bg-gradient-to-r from-orange to-yellow text-lg text-white hover:opacity-70 '>
