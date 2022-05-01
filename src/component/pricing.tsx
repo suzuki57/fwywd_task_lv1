@@ -2,9 +2,9 @@ import Image from 'next/image';
 import React from 'react';
 
 export const Pricing: React.FC = () => (
-  <div className='h-[1400px] bg-primary-50 font-bold'>
+  <div id='pricing' className='z-0 h-[1400px] bg-primary-50 font-bold'>
     <div className='text-center text-lg text-primary-800'>
-      <p className='pt-20 text-[48px]'>料金</p>
+      <p className='pt-28 text-[48px]'>料金</p>
       <p className='pt-5 pb-10'>＼学びのスタイルに合わせた３つのプランを用意／</p>
       <p>＼おすすめ／</p>
     </div>
@@ -12,7 +12,7 @@ export const Pricing: React.FC = () => (
     <div className='m-auto flex w-11/12'>
       {/* 起業挑戦プラン */}
       <div className='m-auto'>
-        <div className='h-[800px] w-[500px]  rounded bg-white text-center text-lg font-bold text-primary-800 shadow-lg hover:bg-yellow'>
+        <div className='h-[800px] w-[500px]  rounded bg-white text-center text-lg font-bold text-primary-800 shadow-lg hover:bg-primary-800 hover:text-white'>
           <div className='py-10 px-16'>
             <p>
               <span className='text-2xl'>起業挑戦</span>プラン
@@ -71,7 +71,7 @@ export const Pricing: React.FC = () => (
 
       {/* スタンダードプラン */}
       <div className='m-auto'>
-        <div className='h-[800px] w-[500px] rounded bg-primary-800 text-center text-lg font-bold text-white shadow-lg hover:bg-yellow hover:text-primary-800'>
+        <div className='h-[800px] w-[500px] rounded bg-white text-center text-lg font-bold text-primary-800 shadow-lg hover:bg-primary-800 hover:text-white'>
           <div className='py-10 px-16'>
             <p>
               <span className='text-2xl'>スタンダード</span>プラン
@@ -109,9 +109,9 @@ export const Pricing: React.FC = () => (
               </div>
               <div className='flex'>
                 <div>
-                  <Image src='/icon/notcheck2.png' alt='notcheck2' width={36} height={36}></Image>
+                  <Image src='/icon/notcheck1.png' alt='notcheck1' width={36} height={36}></Image>
                 </div>
-                <p className='text-primary-600'>運営側の質問対応</p>
+                <p className='text-primary-200'>運営側の質問対応</p>
               </div>
             </div>
             <div className='pl-28'>
@@ -120,8 +120,8 @@ export const Pricing: React.FC = () => (
                 <p>入学試験</p>
               </div>
               <div className='flex'>
-                <Image src='/icon/notcheck2.png' alt='notcheck2' width={36} height={36}></Image>
-                <p className='text-primary-600'>Web面接</p>
+                <Image src='/icon/notcheck1.png' alt='notcheck1' width={36} height={36}></Image>
+                <p className='text-primary-200'>Web面接</p>
               </div>
             </div>
           </div>
@@ -131,7 +131,7 @@ export const Pricing: React.FC = () => (
       {/* フルサポートプラン */}
 
       <div className='m-auto'>
-        <div className='h-[800px] w-[500px]  rounded bg-white text-center text-lg font-bold text-primary-800 shadow-lg hover:bg-yellow'>
+        <div className='h-[800px] w-[500px]  rounded bg-white text-center text-lg font-bold text-primary-800 shadow-lg hover:bg-primary-800 hover:text-white'>
           <div className='py-10 px-16'>
             <p>
               <span className='text-2xl'>フルサポート</span>プラン

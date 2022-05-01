@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 
 export const PageFooter: React.FC = () => (
-  <div className='h-[630px] bg-primary-800 py-10 px-20 text-lg text-white'>
+  <div className='z-0 h-[630px] bg-primary-800 py-10 px-20 text-lg text-white'>
     <div className='mb-16 border-b-4 border-white'>
       <div className='flex pb-5'>
         {/* ロゴ */}

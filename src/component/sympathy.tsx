@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 
 export const Sympathy: React.FC = () => (
-  <div className='h-[1100px] bg-primary-50'>
+  <div id="sympathy" className='z-0 h-[1100px] bg-primary-50'>
     <p className='m-auto mb-16 w-[36%] border-b-4 border-yellow pt-28 text-center text-2xl font-bold text-primary-800'>
       夢を叶える仲間が欲しい、あなたへ
     </p>
